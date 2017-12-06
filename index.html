@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../itunes/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=BioRhyme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../itunes/application.js"></script>
+</head>
+<body>
+<div id="header"><div id="theTitle" class="high-emphasis">DISCOVER ITUNES</div>
+    <img id="sheep" src="http://res.publicdomainfiles.com/pdf_view/53/13526719815335.png" style="width:100px;">
+    <br>
+    <div class="less-emphasis">Find albums from all your favorite artists!</div>
+</div>
+<br>
+<fieldset id="searchArtist">
+    <legend class="medium-emphasis">Search Itunes</legend>
+    <label for="enterName" class="less-emphasis">Search: </label>
+    <input type="text" id="enterName">
+    <br>
+    <label for="numberOfResults">Number Of Results: </label>
+    <select id="numberOfResults">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+    </select>
+    <br>
+    <label for="isTrackCensored">Censor Track Names? </label>
+    <select id="isTrackCensored">
+        <option value="0">no</option>
+        <option value="1">yes</option>
+    </select>
+    <i class="fa fa-search" id="enters"></i>
+</fieldset>
+<br>
+<div id="displayArea">
+</div>
+
+</body>
+</html>

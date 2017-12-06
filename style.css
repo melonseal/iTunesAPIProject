@@ -1,0 +1,75 @@
+body {
+    background-color: lemonchiffon;
+    color: mediumturquoise;
+    font-family: 'BioRhyme', Helvetica, sans-serif;
+    text-align: center;
+}
+
+.high-emphasis {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Bungee Outline', Helvetica, sans-serif;
+}
+
+.less-emphasis {
+    opacity: 80;
+}
+
+.medium-emphasis {
+    font-family: 'Bungee', Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #f9cfe8;
+    border: 2px solid #f9b1dc;
+}
+
+#sheep {
+    opacity: 0.5;
+}
+
+#searchArtist {
+    position: sticky;
+    background-color: lemonchiffon;
+    top: 0;
+    width: 70%;
+    margin: auto;
+}
+
+.album {
+}
+
+.highlighted-album {
+    background-color: lightblue;
+}
+
+.detailView {
+    color: #f9b1dc;
+}
+
+.details {
+    display: none;
+    font-size: small;
+    background-color: #f9cfe8;
+    border: 2px solid #f9b1dc;
+}
+
+table, td {
+    table-layout: fixed;
+    width: 75%;
+    border-collapse: collapse;
+    border: 2px solid #f9b1dc;
+    margin: auto;
+}
+
+td {
+    padding: 5px;
+}
+
+#displayArea {
+    opacity: 0;
+}
+
+fieldset {
+    border: 2px solid #f9b1dc;
+}
